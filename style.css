@@ -1,0 +1,57 @@
+/*body{arka plan renkini #1c2833 değerinden #ffffff değerine kadar yüzdeli olarak değiştirir.
+    background-image : linear-gradient(to right, #1c2833 0%,#ffffff 100%);
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    font-style: italic;
+}*/
+
+body{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, #220a03,#190185,#23a6d5,#ffffff);
+    background-size: 500% 500%;
+    animation: animeBG 2s linear infinite;
+    animation-direction: alternate;
+    
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+    font-style: italic;
+}
+
+@keyframes animeBG{
+    0% {background-position: 0%;}
+    100% {background-position: 100%;}
+}
+
+
+table{
+    width: 900px;
+    height: 900px;
+    align: center;
+    /*style="width: 900px; height=900px; align= center;"*/
+}
+
+
+a{
+    color: rgb(151, 202, 166);
+}
+
+img{
+    border-radius: 50%;
+}
+h3{
+    text-decoration: underline;
+}
+h5{
+    font-size: medium;
+}
+
+.td1{
+    color: white; padding: 20px;width: 200px;background-color: #1c2833;
+}
